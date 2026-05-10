@@ -15,7 +15,7 @@ The extension is designed to **fail open** — if Omni is missing, exits non-zer
 
 ## Prerequisites
 
-- [Pi](https://github.com/earendil-works/pi-coding-agent) is installed
+- [Pi](https://pi.dev/) is installed
 - The `omni` executable is available on `PATH` for the Pi process
 
 If your local Omni setup depends on an environment manager such as Infisical, direnv, 1Password, or similar, launch Pi through that environment yourself.
