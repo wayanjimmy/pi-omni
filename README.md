@@ -1,6 +1,6 @@
 # pi-omni
 
-Pi extension package for integrating [Omni](https://github.com/wayanjimmy/omni) output filtering.
+Pi extension package for integrating [Omni](https://github.com/fajarhide/omni) output filtering.
 
 ## What it does
 
@@ -34,10 +34,6 @@ After installation, start a new Pi session. The extension should:
 - Inject any Omni system prompt additions before the agent starts
 - Invoke `omni --post-hook` after non-mutating tool results
 - Invoke `omni --pre-compact` before session compaction
-
-## Avoid double-loading
-
-If you previously had an Omni extension at `~/.pi/agent/extensions/omni.ts`, remove it before installing this package to prevent duplicate hook calls.
 
 ## Local development
 
