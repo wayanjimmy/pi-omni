@@ -1,0 +1,22 @@
+{
+  "name": "pi-omni",
+  "version": "0.1.0",
+  "description": "Pi extension package for integrating Omni output filtering",
+  "keywords": ["pi-package", "pi-extension", "omni"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": ["./pi-extensions"]
+  }
+}
