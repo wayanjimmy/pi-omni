@@ -458,19 +458,19 @@ Mitigation:
 
 The migration is complete when all of the following are true:
 
-- [ ] `package.json` declares a Pi package with `keywords: ["pi-package"]`.
-- [ ] `package.json` declares `pi.extensions: ["./pi-extensions"]`.
-- [ ] `pi-extensions/omni.ts` exists in this repository.
-- [ ] The new extension preserves current behavior.
-- [ ] The project typechecks locally.
-- [ ] Pi can run the extension from the local project path.
-- [ ] The repository can be installed with `pi install git:*`.
-- [ ] Pi discovers the extension after Git install.
-- [ ] The live old file `/home/jimbo/.pi/agent/extensions/omni.ts` has been removed during cutover.
-- [ ] The chezmoi source copy has been retired or removed after validation.
-- [ ] Public documentation does not require Infisical.
-- [ ] Public documentation does not expose private project IDs.
-- [ ] Only one Omni extension is active in normal use.
+- [x] `package.json` declares a Pi package with `keywords: ["pi-package"]`.
+- [x] `package.json` declares `pi.extensions: ["./pi-extensions"]`.
+- [x] `pi-extensions/omni.ts` exists in this repository.
+- [x] The new extension preserves current behavior.
+- [x] The project typechecks locally.
+- [x] Pi can run the extension from the local project path.
+- [x] The repository can be installed with `pi install git:*`.
+- [x] Pi discovers the extension after Git install.
+- [x] The live old file `/home/jimbo/.pi/agent/extensions/omni.ts` has been removed during cutover.
+- [x] The chezmoi source copy has been retired or removed after validation.
+- [x] Public documentation does not require Infisical.
+- [x] Public documentation does not expose private project IDs.
+- [x] Only one Omni extension is active in normal use.
 
 ## Definition of Done
 
